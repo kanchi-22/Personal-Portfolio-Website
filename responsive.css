@@ -1,0 +1,152 @@
+@media only screen and (max-width:1250px) and (min-width:500px){
+    body{
+        width:100%;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .welcome h2{
+        font-size:30px;
+    }
+    .about{
+        font-size:14px;
+        margin-bottom: 20px;
+    }
+    .channel{
+        height:600px;
+    }
+    .photo img{
+        width:180px;
+        height: 180px;
+        margin-right:0px;
+    }
+    .channel-photo{
+        width:600px;
+        height:250px;
+    }
+    .channel-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe-logo{
+        padding-top: 30px;
+        width:200px;
+        height:150px;
+    }
+    .about-box{
+        padding-top: 80px;
+    }
+    .education{
+        height:550px;
+    }
+    .interests{
+        height:580px;
+        border-bottom: 2px rgb(243, 186, 186) solid;
+    }
+    .welcome{
+        height:1000px;
+    }
+    .about-box{
+        flex-direction: column;
+    }
+    .education p{
+        width:250px;
+    }
+    .interests p{
+        width:250px;
+    }
+    .contact{
+        display: block;
+        padding-top: 30px;
+        height:160px;
+        text-align: center;
+        background-color: black;
+        text-shadow: rgb(197, 121, 134) 2px 2px 6px;
+        color:rgb(243, 186, 186);
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width:500px){
+    body{
+        width:100%;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .welcome h2{
+        font-size:30px;
+    }
+    .about{
+        font-size:14px;
+        margin-bottom: 20px;
+    }
+    .channel{
+        justify-content: start;
+        height:500px;
+    }
+    .photo img{
+        width:180px;
+        height: 180px;
+        margin-right:0px;
+    }
+    .channel-photo{
+        width:80%;
+        height:20%;
+    }
+    .subscribe-logo{
+        padding-top: 70px;
+        width:150px;
+        height:100px;
+    }
+    .about-box{
+        padding-top: 80px;
+    }
+    .about-list{
+        font-size:15px;
+    }
+    .r{
+        margin-right: 0px;
+        padding-left: 20px;
+    }
+    .education{
+        height:550px;
+    }
+    .interests{
+        height:580px;
+        border-bottom: 2px rgb(243, 186, 186) solid;
+    }
+    .welcome{
+        height:700px;
+    }
+    .about-box{
+        flex-direction: column;
+    }
+    .education p{
+        width:250px;
+    }
+    .interests p{
+        width:250px;
+    }
+    .contact{
+        display: block;
+        padding-top: 30px;
+        height:160px;
+        text-align: center;
+        background-color: black;
+        text-shadow: rgb(197, 121, 134) 2px 2px 6px;
+        color:rgb(243, 186, 186);
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
